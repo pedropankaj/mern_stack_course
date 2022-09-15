@@ -4,8 +4,8 @@
   "description": "techNotes MERN Project",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "node init && node server",
+    "dev": "node init && nodemon server"
   },
   "keywords": [],
   "author": "",
